@@ -466,7 +466,7 @@ h6 {
     content: '';
     width: 194px;
     height: 194px;
-    background: url('/icons/bold-arrow-down-right.svg');
+    background: url('../icons/bold-arrow-down-right.svg');
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
