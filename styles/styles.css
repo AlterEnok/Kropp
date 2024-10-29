@@ -488,9 +488,9 @@ h6 {
 
 @media (min-width: 1600px) and (max-width: 2000px) {
     .banner-info {
-        font-size: min(2vw, 24px);
-        bottom: -8vh;
-        left: 15vw;
+        font-size: min(2vw, 20px);
+        bottom: -15vh;
+        left: 12vw;
     }
 
     .banner-title {
@@ -500,10 +500,15 @@ h6 {
     }
 
     .swiper-pagination {
-        bottom: 2vh !important;
+        bottom: 12vh !important;
     }
 
-
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 50vh !important;
+    }
 }
 
 @media(max-width: 1500px) {
